@@ -34,4 +34,4 @@ Data reduction
 Amount of points and their temporal placement vary greatly so that in order to be able to feed the into the neural network data has to be properly reduced. Extracting curve descriptors for light curve can be done in variety of ways:
 
 - using polynomial chain of piecewise smooth n-th order polynomials (http://arxiv.org/abs/0807.1724 http://arxiv.org/abs/1407.0443)
-- using Fourier shape descriptors (http://arxiv.org/abs/1101.5038)
+- using Fourier shape descriptors (http://arxiv.org/abs/0906.0304, http://arxiv.org/abs/0711.0703)
