@@ -5,9 +5,24 @@ ANN implemented during project is a standard feedforward neural net with one hid
 
 ![Network geometry](http://upload.wikimedia.org/wikipedia/commons/e/e4/Artificial_neural_network.svg)
 
-Thus it has two weight matrices for mapping layers: input to hidden 
-![$\theta_1$](http://www.sciweavers.org/tex2img.php?eq%3D%5Ctheta_1%250D%250A%26bc%3DWhite%26fc%3DBlack%26im%3Djpg%26fs%3D12%26ff%3Darev) 
-and hidden to output  ![$\theta_1$](http://www.sciweavers.org/tex2img.php?eq%3D%5Ctheta_2%250D%250A%26bc%3DWhite%26fc%3DBlack%26im%3Djpg%26fs%3D12%26ff%3Darev).
+Thus it has two weight matrices for mapping layers: input to hidden and hidden to output. 
+They are linearized into matrix θ.
+
+Cost function is defined as follows:
+
+![cost function](cost_function.png)
+
+Where:
+
+- m is number of examples in training set
+- λ is regularization parameter (penalizing for high weights)
+- θ represents weighs, upper superscript represents layer number,
+ lower script coordinates represent connection between j-th neuron in current layer and i-th neuron in next layer
+- x is a matrix containing training data, one example per row - x superscript i represents i-th example in the set
+- y is a matrix of labels - y superscript i represents i-th example in the set
+- h subscript θ represents hypothesis about the data corresponding to weights θ
+
+Cost function is then optimized using nonlinear conjugate gradient method [wikipedia](http://en.wikipedia.org/wiki/Nonlinear_conjugate_gradient_method)
 
 
 
