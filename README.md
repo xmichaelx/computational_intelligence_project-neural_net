@@ -3,7 +3,7 @@ Computational Intelligence Project: Neural Net
 
 Description
 -----------
-Project developed during Computational Intelligence Project Course. Project aims for creating a classifier, which in turn will be used as a part of AGE framework (http://age.iisg.agh.edu.pl).
+Project developed during Computational Intelligence Project Course. Project aims for creating a classifier, which in turn will be used as a part of AGE framework (http://age.iisg.agh.edu.pl) and evaluated on a selected data set. 
 
 Project members
 ---------------
