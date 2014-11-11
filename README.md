@@ -13,6 +13,7 @@ Project members
 ---------------
 
 Michał Drzał, BSc AGH University of Science and Technology
+
 Dawid Pazik, BSc AGH University of Science and Technology
 
 
