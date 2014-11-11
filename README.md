@@ -1,11 +1,16 @@
 Computational Intelligence Project: Neural Net
 =============================================
 
+Description
+-----------
 Project developed during Computational Intelligence Project Course.
 
-Project members:
+Project members
+---------------
+
 Michał Drzał, BSc AGH University of Science and Technology
 Dawid Pazik, BSc AGH University of Science and Technology
 
-Project supervisor:
+Project supervisor
+------------------
 Łukasz Faber, PhD student at AGH University of Science and Technology
