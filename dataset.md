@@ -22,4 +22,11 @@ Depending on the distance between the stars the system can fall into one of thre
 Data acquisition
 ----------------
 
-Data is acquired from ASAS catalogue of variable stars ([link](http://www.astrouw.edu.pl/asas/?page=main)). Light curves are downloaded in bulk from [download site](http://www.astrouw.edu.pl/asas/?page=download). Light curve description (with categories) are obtained by scraping from search site displaying [all results](http://www.astrouw.edu.pl/asas/?page=show&qty=all).
+Data is acquired from ASAS catalogue of variable stars ([link](http://www.astrouw.edu.pl/asas/?page=main)). Light curves are downloaded in bulk from [download site](http://www.astrouw.edu.pl/asas/?page=download). Light curve descriptions (with categories) are obtained by scraping from search site displaying [all results](http://www.astrouw.edu.pl/asas/?page=show&qty=all). There is probably a better way but well, this one works too.
+
+After download data from html file is converted into an easier to handle json format and available in zipped form in repository.
+
+Data reduction
+--------------
+
+Amount of points and their temporal placement vary greatly so that in order to be able to feed the into the neural network data has to be properly reduced.
