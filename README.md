@@ -24,4 +24,4 @@ Project supervisor
 Science advisor
 ---------------
 
-Rafał Pawłaszek , PhD student at Nicolaus Copernicus Astronomical Center, Department of Astrophysics
+Rafał Pawłaszek, PhD student at Nicolaus Copernicus Astronomical Center, Department of Astrophysics
