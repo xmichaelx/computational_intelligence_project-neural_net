@@ -3,7 +3,7 @@ Computational Intelligence Project: Neural Net
 
 Description
 -----------
-Project developed during Computational Intelligence Project Course. Project aims for creating a classifier, which in turn will be used as a part of AGE framework ([project page](http://age.iisg.agh.edu.pl)) and evaluated on a selected data set. 
+Project developed during Computational Intelligence Course. Project aims for creating a classifier, which in turn will be used as a part of AGE framework ([project page](http://age.iisg.agh.edu.pl)) and evaluated on a selected data set. 
 
 1. Implementation of Neural Network ([info](neural_network.md))
 2. Evaluation on dataset common to all groups: Human Activity Recognition ([data source](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones))
