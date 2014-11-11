@@ -7,7 +7,7 @@ Project developed during Computational Intelligence Project Course. Project aims
 
 1. Implementation of Neural Network ([link](neural_network.md))
 2. Evaluation on dataset common to all groups: Human Activity Recognition (https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-3. Evaluation on group-specific dataset: Eclisping Binaries Light Curves (http://www.astrouw.edu.pl/asas/?page=acvs)
+3. Evaluation on group-specific dataset: Eclisping Binaries Light Curves ([dataset](dataset.md),http://www.astrouw.edu.pl/asas/?page=acvs)
 
 Project members
 ---------------
