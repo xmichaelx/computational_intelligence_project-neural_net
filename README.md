@@ -8,7 +8,7 @@ Project developed during Computational Intelligence Course. Project aims for cre
 [Initial presentation](AUTOMATED%20CLASSIFICATION%20OF%20LIGHT%20CURVES%20OF%20ECLIPSING%20BINARIES.pptx)
 
 1. Implementation of Neural Network ([info](neural_network.md))
-2. Evaluation on dataset common to all groups: Human Activity Recognition ([data source](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones))
+2. Evaluation on dataset common to all groups: Human Activity Recognition ([data source with description](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones))
 3. Evaluation on group-specific dataset: Eclipsing Binaries Light Curves ([info](dataset.md), [data source](http://www.astrouw.edu.pl/asas/?page=acvs))
 
 Project members
