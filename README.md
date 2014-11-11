@@ -20,3 +20,8 @@ Dawid Pazik, BSc AGH University of Science and Technology
 Project supervisor
 ------------------
 Łukasz Faber, PhD student at AGH University of Science and Technology
+
+Science advisor
+---------------
+
+Rafał Pawłaszek , PhD student at Nicolaus Copernicus Astronomical Center, Department of Astrophysics
