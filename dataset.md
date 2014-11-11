@@ -12,3 +12,4 @@ Depending on the distance between the stars the system can fall into one of thre
 - contact
 
 ![Visual](http://lifeng.lamost.org/courses/astrotoday/CHAISSON/AT320/IMAGES/AT20FG21.JPG)
+
