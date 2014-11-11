@@ -20,6 +20,7 @@ Depending on the distance between the stars the system can fall into one of thre
 ![Eclipsing binaries categories](http://lifeng.lamost.org/courses/astrotoday/CHAISSON/AT320/IMAGES/AT20FG21.JPG)
 
 [Further reading](http://books.google.cl/books/about/Eclipsing_Binary_Stars.html?id=W-mVhBx48GwC&redir_esc=y)
+
 [Poster](https://www.tarleton.edu/observatory/posters/Katherine-Poster.pdf)
 
 Data acquisition
