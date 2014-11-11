@@ -24,7 +24,7 @@ Where:
 
 Cost function is then optimized using nonlinear conjugate gradient method [wikipedia](http://en.wikipedia.org/wiki/Nonlinear_conjugate_gradient_method)
 
-Neural network code is an Java adaptation Exercise 4 from Coursera course on Machine Learning by Andrew Ng. 
+Neural network code is an Java adaptation (with minor object-oriented changes) of Exercise 4 from Coursera course on Machine Learning by Andrew Ng. 
 Assignments are available in another GitHub [repository](https://github.com/yhyap/machine-learning-coursera).
 
 Course available (after registration) on [Coursera](https://www.coursera.org/course/ml).
