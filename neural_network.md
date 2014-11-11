@@ -3,7 +3,7 @@ Neural network
 
 ANN implemented during project is a standard feedforward neural net with one hidden layer. 
 
-![Network geometry](http://upload.wikimedia.org/wikipedia/commons/e/e4/Artificial_neural_network.svg)
+![Network geometry](http://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Colored_neural_network.svg/300px-Colored_neural_network.svg.png)
 
 Thus it has two weight matrices for mapping layers: input to hidden and hidden to output. 
 They are linearized into matrix θ.
