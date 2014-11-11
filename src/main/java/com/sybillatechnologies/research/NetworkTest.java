@@ -62,15 +62,10 @@ public class NetworkTest
     {
         int inputLayerSize = trainingX.numCols();
 
-        SimpleMatrix weights = Utils.trainNetwork(trainingX, trainingY, hiddenLayerSize, numberOfLabels, lambda, numberOfIterations);
+        NeuralNetwork network = new NeuralNetwork(inputLayerSize, hiddenLayerSize, numberOfLabels);
+        network.train(trainingX, trainingY, lambda,numberOfIterations);
 
-        SimpleMatrix theta1 = weights.extractMatrix(0, 1, 0, (inputLayerSize + 1) * hiddenLayerSize);
-        theta1.reshape(hiddenLayerSize, inputLayerSize + 1);
-
-        SimpleMatrix theta2 = weights.extractMatrix(0, 1, (inputLayerSize + 1) * hiddenLayerSize, weights.getNumElements());
-        theta2.reshape(numberOfLabels, hiddenLayerSize + 1);
-
-        SimpleMatrix predictedY = Utils.predict(theta1, theta2, testX);
+        SimpleMatrix predictedY = network.predict(testX);
         SimpleMatrix matches = Utils.elementEquals(testY, predictedY);
 
         PrintWriter fileOutput = new PrintWriter(new BufferedWriter(new FileWriter(outputFilePath, true)));
