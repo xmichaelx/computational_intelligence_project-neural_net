@@ -1,7 +1,7 @@
 Neural network
 ==============
 
-ANN implemented during project is a standard feedforward neural net with one hidden layer. 
+Implemented ANN is a standard feedforward neural net with one hidden layer. 
 
 ![Network geometry](http://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Colored_neural_network.svg/300px-Colored_neural_network.svg.png)
 
