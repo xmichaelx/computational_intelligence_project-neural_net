@@ -40,3 +40,8 @@ Amount of points and their temporal placement vary greatly so that in order to b
 
 
 [Spline functions description](http://folk.uio.no/in329/nchap5.pdf)
+
+Chosen methods
+--------------
+
+After analysis of available methods polynomial chain of piecewise smooth n-th order polynomials was chosen. As generating features suitable for input for neural network was beyond the scope of project we based our data recution method on a existing algorithm implemented in C called polyfit. Archive with algorithm is available in our repo (code is under GPL licence).
