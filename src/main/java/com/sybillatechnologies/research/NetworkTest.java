@@ -60,7 +60,14 @@ public class NetworkTest
     private static void testConfiguration(SimpleMatrix trainingX, SimpleMatrix trainingY, SimpleMatrix testX, SimpleMatrix testY, int numberOfLabels, double lambda, int numberOfIterations, int hiddenLayerSize)
             throws IOException
     {
+        PrintWriter fileOutput = new PrintWriter(new BufferedWriter(new FileWriter(outputFilePath, true)));
+        fileOutput.println("Number of iterations: " + numberOfIterations);
+        fileOutput.println("Size of hidden layer: " + hiddenLayerSize);
+        fileOutput.println("Lambda: " + lambda);
+
         int inputLayerSize = trainingX.numCols();
+
+        double trainingStartTime = System.currentTimeMillis();
 
         SimpleMatrix weights = Utils.trainNetwork(trainingX, trainingY, hiddenLayerSize, numberOfLabels, lambda, numberOfIterations);
 
@@ -70,14 +77,17 @@ public class NetworkTest
         SimpleMatrix theta2 = weights.extractMatrix(0, 1, (inputLayerSize + 1) * hiddenLayerSize, weights.getNumElements());
         theta2.reshape(numberOfLabels, hiddenLayerSize + 1);
 
+        double trainingEndTime = System.currentTimeMillis();
+
         SimpleMatrix predictedY = Utils.predict(theta1, theta2, testX);
+
+        double predictionEndTime = System.currentTimeMillis();
+
         SimpleMatrix matches = Utils.elementEquals(testY, predictedY);
 
-        PrintWriter fileOutput = new PrintWriter(new BufferedWriter(new FileWriter(outputFilePath, true)));
-        fileOutput.println("Number of iterations: " + numberOfIterations);
-        fileOutput.println("Size of hidden layer: " + hiddenLayerSize);
-        fileOutput.println("Lambda: " + lambda);
         fileOutput.println("Accuracy: " + (matches.elementSum() / matches.getNumElements()));
+        fileOutput.println("Training time: " + (trainingEndTime - trainingStartTime) + " ms");
+        fileOutput.println("Prediction time: " + (predictionEndTime - trainingEndTime) + " ms");
         fileOutput.println();
         fileOutput.close();
     }
